@@ -1,0 +1,16 @@
+
+*.xcworkspacedata
+
+*.xccheckout
+
+*.xcuserstate
+
+*.xcbkptlist
+
+*.xcscheme
+
+*.plist
+
+*.pch
+
+BAC Calc/BacData.xcdatamodeld/BacData.xcdatamodel/contents
