@@ -1,3 +1,4 @@
+*.DS_Store
 
 *.xcworkspacedata
 
@@ -12,3 +13,5 @@
 *.pch
 
 BAC Calc/BacData.xcdatamodeld/BacData.xcdatamodel/contents
+
+BAC Calc.xcodeproj/xcuserdata/Melissa.xcuserdatad
