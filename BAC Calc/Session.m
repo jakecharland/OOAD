@@ -10,4 +10,11 @@
 
 @implementation Session
 
++(void)addDrink{
+    
+}
+
++(void)removeDrink{
+    
+}
 @end

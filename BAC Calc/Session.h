@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Statistics.h"
 
 @interface Session : NSObject
+@property (nonatomic, retain) NSMutableArray *drinks;
+@property (nonatomic, retain) Statistics *stats;
+
++(void)addDrink;
++(void)removeDrink;
 
 @end

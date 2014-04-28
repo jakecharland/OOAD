@@ -27,6 +27,7 @@
 		218A07351648B9DA00DF3EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 218A07331648B9DA00DF3EF4 /* InfoPlist.strings */; };
 		218A07381648B9DA00DF3EF4 /* BAC_CalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218A07371648B9DA00DF3EF4 /* BAC_CalcTests.m */; };
 		3B6E31DC190DD61F0026A720 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E31DB190DD61F0026A720 /* Session.m */; };
+		3B6E31DF190DDBCE0026A720 /* Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E31DE190DDBCE0026A720 /* Statistics.m */; };
 		3B6E82461649801000D60C1A /* BACCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E82451649801000D60C1A /* BACCalc.m */; };
 		3B6E824A1649827100D60C1A /* BACCalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E82491649827100D60C1A /* BACCalcController.m */; };
 		3B6E8267164A22EE00D60C1A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E8264164A22EE00D60C1A /* Person.m */; };
@@ -106,6 +107,8 @@
 		218A07371648B9DA00DF3EF4 /* BAC_CalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAC_CalcTests.m; sourceTree = "<group>"; };
 		3B6E31DA190DD61F0026A720 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
 		3B6E31DB190DD61F0026A720 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		3B6E31DD190DDBCE0026A720 /* Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statistics.h; sourceTree = "<group>"; };
+		3B6E31DE190DDBCE0026A720 /* Statistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Statistics.m; sourceTree = "<group>"; };
 		3B6E82441649801000D60C1A /* BACCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACCalc.h; sourceTree = "<group>"; };
 		3B6E82451649801000D60C1A /* BACCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACCalc.m; sourceTree = "<group>"; };
 		3B6E82481649827100D60C1A /* BACCalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACCalcController.h; sourceTree = "<group>"; };
@@ -300,6 +303,8 @@
 		218A07041648B9DA00DF3EF4 /* BAC Calc */ = {
 			isa = PBXGroup;
 			children = (
+				3B6E31DD190DDBCE0026A720 /* Statistics.h */,
+				3B6E31DE190DDBCE0026A720 /* Statistics.m */,
 				3B6E31DA190DD61F0026A720 /* Session.h */,
 				3B6E31DB190DD61F0026A720 /* Session.m */,
 				3B6E8265164A22EE00D60C1A /* Person.h */,
@@ -652,6 +657,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				218A070B1648B9DA00DF3EF4 /* main.m in Sources */,
+				3B6E31DF190DDBCE0026A720 /* Statistics.m in Sources */,
 				218A070F1648B9DA00DF3EF4 /* AppDelegate.m in Sources */,
 				218A07181648B9DA00DF3EF4 /* FirstViewController.m in Sources */,
 				A1A22ABF190DD45E0019BD5D /* BACViewController.m in Sources */,
