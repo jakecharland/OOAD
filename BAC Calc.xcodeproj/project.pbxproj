@@ -250,10 +250,7 @@
 		218A06EF1648B9DA00DF3EF4 = {
 			isa = PBXGroup;
 			children = (
-				D0F9D8AB16785DFC00137529 /* QuartzCore.framework */,
 				D0F9D7E816784F7000137529 /* BAC Calc.xcodeproj */,
-				D0884D441665BEDF004CD99A /* ImageIO.framework */,
-				D0884D421665BEB1004CD99A /* CoreImage.framework */,
 				3BD1A1991648D5FF0059F62B /* Default-568h@2x.png */,
 				218A07041648B9DA00DF3EF4 /* BAC Calc */,
 				218A07301648B9DA00DF3EF4 /* BAC CalcTests */,
@@ -274,6 +271,9 @@
 		218A06FD1648B9DA00DF3EF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0884D441665BEDF004CD99A /* ImageIO.framework */,
+				D0884D421665BEB1004CD99A /* CoreImage.framework */,
+				D0F9D8AB16785DFC00137529 /* QuartzCore.framework */,
 				3BB6430716647A3300AEF2EF /* CoreData.framework */,
 				218A06FE1648B9DA00DF3EF4 /* UIKit.framework */,
 				218A07001648B9DA00DF3EF4 /* Foundation.framework */,
@@ -286,55 +286,9 @@
 		218A07041648B9DA00DF3EF4 /* BAC Calc */ = {
 			isa = PBXGroup;
 			children = (
-				D0F9D8101678593300137529 /* CorePlot */,
-				D0BC4271167B0BDC007B924E /* Background3.png */,
-				D0BC4285167B174C007B924E /* beer-mug.png */,
-				D0BC4286167B174C007B924E /* line-chart.png */,
-				D0BC4287167B174C007B924E /* gear.png */,
-				D0BC4288167B174C007B924E /* clock.png */,
-				D0BC4273167B0E97007B924E /* Shot.png */,
-				D0BC4274167B0E97007B924E /* RedSoloCup2.png */,
-				D0BC4275167B0E97007B924E /* DoubleShot.png */,
-				D0BC4276167B0E97007B924E /* LightBeer.png */,
-				D0884D291665BA39004CD99A /* Glass.png */,
-				D0884D2A1665BA39004CD99A /* MixedDoubleShot.png */,
-				D0884D2B1665BA39004CD99A /* MixedShot.png */,
-				D0884D2C1665BA39004CD99A /* Beer.png */,
-				D0884D2E1665BA3A004CD99A /* StrongBeer.png */,
-				D0884D2F1665BA3A004CD99A /* MartiniGlass.png */,
-				D0884D301665BA3A004CD99A /* BeerPint.png */,
-				D0884D311665BA3A004CD99A /* RedSoloCup1.png */,
-				D0884D331665BA3B004CD99A /* RedWine.png */,
-				D0884D341665BA3B004CD99A /* WhiteWine.png */,
-				3B6E8269164A22FC00D60C1A /* Equation.m */,
-				3B6E8262164A22EE00D60C1A /* Equation.h */,
-				3B6E8263164A22EE00D60C1A /* Slope.h */,
-				3B6E8264164A22EE00D60C1A /* Person.m */,
-				3B6E8265164A22EE00D60C1A /* Person.h */,
-				3B6E8266164A22EE00D60C1A /* Slope.m */,
-				218A070D1648B9DA00DF3EF4 /* AppDelegate.h */,
-				218A070E1648B9DA00DF3EF4 /* AppDelegate.m */,
-				218A07101648B9DA00DF3EF4 /* MainStoryboard_iPhone.storyboard */,
-				3BB6430416647A0100AEF2EF /* BacData.xcdatamodeld */,
-				3BB64309166480E700AEF2EF /* Profile.h */,
-				3BB6430A166480E700AEF2EF /* Profile.m */,
-				218A07131648B9DA00DF3EF4 /* MainStoryboard_iPad.storyboard */,
-				3B6E82441649801000D60C1A /* BACCalc.h */,
-				3B6E82451649801000D60C1A /* BACCalc.m */,
-				3B6E82481649827100D60C1A /* BACCalcController.h */,
-				3B6E82491649827100D60C1A /* BACCalcController.m */,
-				218A07191648B9DA00DF3EF4 /* first.png */,
-				218A071B1648B9DA00DF3EF4 /* first@2x.png */,
-				218A07161648B9DA00DF3EF4 /* FirstViewController.h */,
-				218A07171648B9DA00DF3EF4 /* FirstViewController.m */,
-				218A071D1648B9DA00DF3EF4 /* SecondViewController.h */,
-				218A071E1648B9DA00DF3EF4 /* SecondViewController.m */,
-				3BB6430116646E1500AEF2EF /* ThirdViewController.h */,
-				3BB6430216646E1500AEF2EF /* ThirdViewController.m */,
-				D0BFCA24167188B400A3939E /* FourthViewController.h */,
-				D0BFCA25167188B400A3939E /* FourthViewController.m */,
-				218A07201648B9DA00DF3EF4 /* second.png */,
-				218A07221648B9DA00DF3EF4 /* second@2x.png */,
+				A1A22AB6190DD2E70019BD5D /* ViewControllers */,
+				A1A22AB5190DD2D40019BD5D /* oldFiles */,
+				A1A22AB1190DD0F10019BD5D /* images */,
 				218A07051648B9DA00DF3EF4 /* Supporting Files */,
 			);
 			path = "BAC Calc";
@@ -343,6 +297,10 @@
 		218A07051648B9DA00DF3EF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				218A07101648B9DA00DF3EF4 /* MainStoryboard_iPhone.storyboard */,
+				218A07131648B9DA00DF3EF4 /* MainStoryboard_iPad.storyboard */,
+				3BB6430416647A0100AEF2EF /* BacData.xcdatamodeld */,
+				D0F9D8101678593300137529 /* CorePlot */,
 				218A07061648B9DA00DF3EF4 /* BAC Calc-Info.plist */,
 				218A07071648B9DA00DF3EF4 /* InfoPlist.strings */,
 				218A070A1648B9DA00DF3EF4 /* main.m */,
@@ -368,6 +326,72 @@
 				218A07331648B9DA00DF3EF4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1A22AB1190DD0F10019BD5D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				218A07191648B9DA00DF3EF4 /* first.png */,
+				218A071B1648B9DA00DF3EF4 /* first@2x.png */,
+				218A07201648B9DA00DF3EF4 /* second.png */,
+				218A07221648B9DA00DF3EF4 /* second@2x.png */,
+				D0BC4271167B0BDC007B924E /* Background3.png */,
+				D0BC4285167B174C007B924E /* beer-mug.png */,
+				D0BC4286167B174C007B924E /* line-chart.png */,
+				D0BC4287167B174C007B924E /* gear.png */,
+				D0BC4288167B174C007B924E /* clock.png */,
+				D0BC4273167B0E97007B924E /* Shot.png */,
+				D0BC4274167B0E97007B924E /* RedSoloCup2.png */,
+				D0BC4275167B0E97007B924E /* DoubleShot.png */,
+				D0BC4276167B0E97007B924E /* LightBeer.png */,
+				D0884D291665BA39004CD99A /* Glass.png */,
+				D0884D2A1665BA39004CD99A /* MixedDoubleShot.png */,
+				D0884D2B1665BA39004CD99A /* MixedShot.png */,
+				D0884D2C1665BA39004CD99A /* Beer.png */,
+				D0884D2E1665BA3A004CD99A /* StrongBeer.png */,
+				D0884D2F1665BA3A004CD99A /* MartiniGlass.png */,
+				D0884D301665BA3A004CD99A /* BeerPint.png */,
+				D0884D311665BA3A004CD99A /* RedSoloCup1.png */,
+				D0884D331665BA3B004CD99A /* RedWine.png */,
+				D0884D341665BA3B004CD99A /* WhiteWine.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		A1A22AB5190DD2D40019BD5D /* oldFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3B6E8269164A22FC00D60C1A /* Equation.m */,
+				3B6E8262164A22EE00D60C1A /* Equation.h */,
+				3B6E8263164A22EE00D60C1A /* Slope.h */,
+				3B6E8264164A22EE00D60C1A /* Person.m */,
+				3B6E8265164A22EE00D60C1A /* Person.h */,
+				3B6E8266164A22EE00D60C1A /* Slope.m */,
+				218A070D1648B9DA00DF3EF4 /* AppDelegate.h */,
+				218A070E1648B9DA00DF3EF4 /* AppDelegate.m */,
+				3BB64309166480E700AEF2EF /* Profile.h */,
+				3BB6430A166480E700AEF2EF /* Profile.m */,
+				3B6E82441649801000D60C1A /* BACCalc.h */,
+				3B6E82451649801000D60C1A /* BACCalc.m */,
+				3B6E82481649827100D60C1A /* BACCalcController.h */,
+				3B6E82491649827100D60C1A /* BACCalcController.m */,
+				218A07161648B9DA00DF3EF4 /* FirstViewController.h */,
+				218A07171648B9DA00DF3EF4 /* FirstViewController.m */,
+				218A071D1648B9DA00DF3EF4 /* SecondViewController.h */,
+				218A071E1648B9DA00DF3EF4 /* SecondViewController.m */,
+				3BB6430116646E1500AEF2EF /* ThirdViewController.h */,
+				3BB6430216646E1500AEF2EF /* ThirdViewController.m */,
+				D0BFCA24167188B400A3939E /* FourthViewController.h */,
+				D0BFCA25167188B400A3939E /* FourthViewController.m */,
+			);
+			name = oldFiles;
+			sourceTree = "<group>";
+		};
+		A1A22AB6190DD2E70019BD5D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		D0F9D7E916784F7000137529 /* Products */ = {
