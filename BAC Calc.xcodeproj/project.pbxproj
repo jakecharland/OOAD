@@ -36,6 +36,10 @@
 		3BB6430816647A3300AEF2EF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB6430716647A3300AEF2EF /* CoreData.framework */; };
 		3BB6430B166480E700AEF2EF /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB6430A166480E700AEF2EF /* Profile.m */; };
 		3BD1A19A1648D5FF0059F62B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD1A1991648D5FF0059F62B /* Default-568h@2x.png */; };
+		A1A22AB9190DD3C30019BD5D /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A22AB8190DD3C30019BD5D /* TabBarController.m */; };
+		A1A22ABC190DD4380019BD5D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A22ABB190DD4380019BD5D /* ProfileViewController.m */; };
+		A1A22ABF190DD45E0019BD5D /* BACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A22ABE190DD45E0019BD5D /* BACViewController.m */; };
+		A1A22AC2190DD4A80019BD5D /* AddDrinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A22AC1190DD4A80019BD5D /* AddDrinkViewController.m */; };
 		D0884D351665BA3B004CD99A /* Glass.png in Resources */ = {isa = PBXBuildFile; fileRef = D0884D291665BA39004CD99A /* Glass.png */; };
 		D0884D361665BA3B004CD99A /* MixedDoubleShot.png in Resources */ = {isa = PBXBuildFile; fileRef = D0884D2A1665BA39004CD99A /* MixedDoubleShot.png */; };
 		D0884D371665BA3B004CD99A /* MixedShot.png in Resources */ = {isa = PBXBuildFile; fileRef = D0884D2B1665BA39004CD99A /* MixedShot.png */; };
@@ -115,7 +119,15 @@
 		3BB6430716647A3300AEF2EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3BB64309166480E700AEF2EF /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
 		3BB6430A166480E700AEF2EF /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
-		3BD1A1991648D5FF0059F62B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3BD1A1991648D5FF0059F62B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1A22AB7190DD3C30019BD5D /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		A1A22AB8190DD3C30019BD5D /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		A1A22ABA190DD4380019BD5D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		A1A22ABB190DD4380019BD5D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		A1A22ABD190DD45E0019BD5D /* BACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACViewController.h; sourceTree = "<group>"; };
+		A1A22ABE190DD45E0019BD5D /* BACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACViewController.m; sourceTree = "<group>"; };
+		A1A22AC0190DD4A80019BD5D /* AddDrinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDrinkViewController.h; sourceTree = "<group>"; };
+		A1A22AC1190DD4A80019BD5D /* AddDrinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDrinkViewController.m; sourceTree = "<group>"; };
 		D0884D291665BA39004CD99A /* Glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Glass.png; sourceTree = "<group>"; };
 		D0884D2A1665BA39004CD99A /* MixedDoubleShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MixedDoubleShot.png; sourceTree = "<group>"; };
 		D0884D2B1665BA39004CD99A /* MixedShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MixedShot.png; sourceTree = "<group>"; };
@@ -251,7 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				D0F9D7E816784F7000137529 /* BAC Calc.xcodeproj */,
-				3BD1A1991648D5FF0059F62B /* Default-568h@2x.png */,
 				218A07041648B9DA00DF3EF4 /* BAC Calc */,
 				218A07301648B9DA00DF3EF4 /* BAC CalcTests */,
 				218A06FD1648B9DA00DF3EF4 /* Frameworks */,
@@ -331,6 +342,7 @@
 		A1A22AB1190DD0F10019BD5D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				3BD1A1991648D5FF0059F62B /* Default-568h@2x.png */,
 				218A07191648B9DA00DF3EF4 /* first.png */,
 				218A071B1648B9DA00DF3EF4 /* first@2x.png */,
 				218A07201648B9DA00DF3EF4 /* second.png */,
@@ -361,12 +373,12 @@
 		A1A22AB5190DD2D40019BD5D /* oldFiles */ = {
 			isa = PBXGroup;
 			children = (
-				3B6E8269164A22FC00D60C1A /* Equation.m */,
 				3B6E8262164A22EE00D60C1A /* Equation.h */,
+				3B6E8269164A22FC00D60C1A /* Equation.m */,
 				3B6E8263164A22EE00D60C1A /* Slope.h */,
+				3B6E8266164A22EE00D60C1A /* Slope.m */,
 				3B6E8264164A22EE00D60C1A /* Person.m */,
 				3B6E8265164A22EE00D60C1A /* Person.h */,
-				3B6E8266164A22EE00D60C1A /* Slope.m */,
 				218A070D1648B9DA00DF3EF4 /* AppDelegate.h */,
 				218A070E1648B9DA00DF3EF4 /* AppDelegate.m */,
 				3BB64309166480E700AEF2EF /* Profile.h */,
@@ -390,6 +402,14 @@
 		A1A22AB6190DD2E70019BD5D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A1A22AB7190DD3C30019BD5D /* TabBarController.h */,
+				A1A22AB8190DD3C30019BD5D /* TabBarController.m */,
+				A1A22ABA190DD4380019BD5D /* ProfileViewController.h */,
+				A1A22ABB190DD4380019BD5D /* ProfileViewController.m */,
+				A1A22ABD190DD45E0019BD5D /* BACViewController.h */,
+				A1A22ABE190DD45E0019BD5D /* BACViewController.m */,
+				A1A22AC0190DD4A80019BD5D /* AddDrinkViewController.h */,
+				A1A22AC1190DD4A80019BD5D /* AddDrinkViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -629,14 +649,18 @@
 				218A070B1648B9DA00DF3EF4 /* main.m in Sources */,
 				218A070F1648B9DA00DF3EF4 /* AppDelegate.m in Sources */,
 				218A07181648B9DA00DF3EF4 /* FirstViewController.m in Sources */,
+				A1A22ABF190DD45E0019BD5D /* BACViewController.m in Sources */,
 				218A071F1648B9DA00DF3EF4 /* SecondViewController.m in Sources */,
+				A1A22ABC190DD4380019BD5D /* ProfileViewController.m in Sources */,
 				3B6E82461649801000D60C1A /* BACCalc.m in Sources */,
 				3B6E824A1649827100D60C1A /* BACCalcController.m in Sources */,
 				3B6E8267164A22EE00D60C1A /* Person.m in Sources */,
+				A1A22AB9190DD3C30019BD5D /* TabBarController.m in Sources */,
 				3B6E8268164A22EE00D60C1A /* Slope.m in Sources */,
 				3B6E826A164A22FC00D60C1A /* Equation.m in Sources */,
 				3BB6430316646E1500AEF2EF /* ThirdViewController.m in Sources */,
 				3BB6430616647A0100AEF2EF /* BacData.xcdatamodeld in Sources */,
+				A1A22AC2190DD4A80019BD5D /* AddDrinkViewController.m in Sources */,
 				3BB6430B166480E700AEF2EF /* Profile.m in Sources */,
 				D0BFCA26167188B400A3939E /* FourthViewController.m in Sources */,
 			);
