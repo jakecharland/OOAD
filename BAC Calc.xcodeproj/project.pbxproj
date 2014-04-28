@@ -26,6 +26,7 @@
 		218A072D1648B9DA00DF3EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218A07001648B9DA00DF3EF4 /* Foundation.framework */; };
 		218A07351648B9DA00DF3EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 218A07331648B9DA00DF3EF4 /* InfoPlist.strings */; };
 		218A07381648B9DA00DF3EF4 /* BAC_CalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218A07371648B9DA00DF3EF4 /* BAC_CalcTests.m */; };
+		3B6E31DC190DD61F0026A720 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E31DB190DD61F0026A720 /* Session.m */; };
 		3B6E82461649801000D60C1A /* BACCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E82451649801000D60C1A /* BACCalc.m */; };
 		3B6E824A1649827100D60C1A /* BACCalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E82491649827100D60C1A /* BACCalcController.m */; };
 		3B6E8267164A22EE00D60C1A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E8264164A22EE00D60C1A /* Person.m */; };
@@ -103,6 +104,8 @@
 		218A07341648B9DA00DF3EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		218A07361648B9DA00DF3EF4 /* BAC_CalcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAC_CalcTests.h; sourceTree = "<group>"; };
 		218A07371648B9DA00DF3EF4 /* BAC_CalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAC_CalcTests.m; sourceTree = "<group>"; };
+		3B6E31DA190DD61F0026A720 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		3B6E31DB190DD61F0026A720 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
 		3B6E82441649801000D60C1A /* BACCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACCalc.h; sourceTree = "<group>"; };
 		3B6E82451649801000D60C1A /* BACCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACCalc.m; sourceTree = "<group>"; };
 		3B6E82481649827100D60C1A /* BACCalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACCalcController.h; sourceTree = "<group>"; };
@@ -297,6 +300,10 @@
 		218A07041648B9DA00DF3EF4 /* BAC Calc */ = {
 			isa = PBXGroup;
 			children = (
+				3B6E31DA190DD61F0026A720 /* Session.h */,
+				3B6E31DB190DD61F0026A720 /* Session.m */,
+				3B6E8265164A22EE00D60C1A /* Person.h */,
+				3B6E8264164A22EE00D60C1A /* Person.m */,
 				A1A22AB6190DD2E70019BD5D /* ViewControllers */,
 				A1A22AB5190DD2D40019BD5D /* oldFiles */,
 				A1A22AB1190DD0F10019BD5D /* images */,
@@ -377,8 +384,6 @@
 				3B6E8269164A22FC00D60C1A /* Equation.m */,
 				3B6E8263164A22EE00D60C1A /* Slope.h */,
 				3B6E8266164A22EE00D60C1A /* Slope.m */,
-				3B6E8264164A22EE00D60C1A /* Person.m */,
-				3B6E8265164A22EE00D60C1A /* Person.h */,
 				218A070D1648B9DA00DF3EF4 /* AppDelegate.h */,
 				218A070E1648B9DA00DF3EF4 /* AppDelegate.m */,
 				3BB64309166480E700AEF2EF /* Profile.h */,
@@ -654,6 +659,7 @@
 				A1A22ABC190DD4380019BD5D /* ProfileViewController.m in Sources */,
 				3B6E82461649801000D60C1A /* BACCalc.m in Sources */,
 				3B6E824A1649827100D60C1A /* BACCalcController.m in Sources */,
+				3B6E31DC190DD61F0026A720 /* Session.m in Sources */,
 				3B6E8267164A22EE00D60C1A /* Person.m in Sources */,
 				A1A22AB9190DD3C30019BD5D /* TabBarController.m in Sources */,
 				3B6E8268164A22EE00D60C1A /* Slope.m in Sources */,
