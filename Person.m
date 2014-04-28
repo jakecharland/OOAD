@@ -23,4 +23,36 @@
     return self;
 }
 
++(void)setGender:(NSString*)gender{
+    
+}
++(void)setAge:(NSNumber*)age{
+    
+}
++(void)setWeight:(NSNumber*)weight{
+    
+}
++(void)checkStats{
+    
+}
++(void)newSession{
+    
+}
++(void)deleteSession{
+    
+}
++(NSString*)getGender{
+    
+}
++(NSNumber*)getWeight{
+    
+}
++(NSNumber*)getAge{
+    
+}
++(Session*)getSession{
+    
+}
+
+
 @end
