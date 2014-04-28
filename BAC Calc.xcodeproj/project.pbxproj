@@ -115,7 +115,7 @@
 		3BB6430716647A3300AEF2EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3BB64309166480E700AEF2EF /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
 		3BB6430A166480E700AEF2EF /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
-		3BD1A1991648D5FF0059F62B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3BD1A1991648D5FF0059F62B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		D0884D291665BA39004CD99A /* Glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Glass.png; sourceTree = "<group>"; };
 		D0884D2A1665BA39004CD99A /* MixedDoubleShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MixedDoubleShot.png; sourceTree = "<group>"; };
 		D0884D2B1665BA39004CD99A /* MixedShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MixedShot.png; sourceTree = "<group>"; };
@@ -251,7 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				D0F9D7E816784F7000137529 /* BAC Calc.xcodeproj */,
-				3BD1A1991648D5FF0059F62B /* Default-568h@2x.png */,
 				218A07041648B9DA00DF3EF4 /* BAC Calc */,
 				218A07301648B9DA00DF3EF4 /* BAC CalcTests */,
 				218A06FD1648B9DA00DF3EF4 /* Frameworks */,
@@ -331,6 +330,7 @@
 		A1A22AB1190DD0F10019BD5D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				3BD1A1991648D5FF0059F62B /* Default-568h@2x.png */,
 				218A07191648B9DA00DF3EF4 /* first.png */,
 				218A071B1648B9DA00DF3EF4 /* first@2x.png */,
 				218A07201648B9DA00DF3EF4 /* second.png */,
